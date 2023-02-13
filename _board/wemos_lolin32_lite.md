@@ -4,7 +4,7 @@ board_id: "wemos_lolin32_lite"
 title: "Wemos LOLIN32 Lite Download"
 name: "Wemos LOLIN32 Lite"
 manufacturer: "Wemos"
-board_url: "https://www.adafruit.com/product/3707"
+board_url: "https://web.archive.org/web/20191002041532/https://wiki.wemos.cc/products:lolin32:lolin32_lite"
 board_image: "adafruit_feather_huzzah32.jpg"
 date_added: 2023-2-14
 family: esp32
@@ -30,11 +30,6 @@ Here are [specifications from Espressif about the ESP32](https://espressif.com/e
 - Integrated 520 KB SRAM
 - Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
 - Integrated dual mode Bluetooth (classic and BLE)
-- 4 MByte flash include in the WROOM32 module
-- On-board PCB antenna
-- Ultra-low noise analog amplifier
-- Hall sensor
-- 10x capacitive touch interface
 - 32 kHz crystal oscillator
 - 3 x UARTs (UART on GPIO1 and GPIO3 is reserved for REPL)
 - 3 x SPI
@@ -42,7 +37,6 @@ Here are [specifications from Espressif about the ESP32](https://espressif.com/e
 - 12 x ADC input channels
 - 2 x I2S Audio
 - 2 x DAC
-- PWM/timer input/output available on every GPIO pin
 - OpenOCD debug interface with 32 kB TRAX buffer
 - SDIO controller/peripheral 50 MHz
 - SD-card interface support
